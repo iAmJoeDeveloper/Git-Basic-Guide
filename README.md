@@ -16,27 +16,41 @@ git reset --soft sha-1
 
 git branch branchName
 
+
+
 **Create and move to branch**
 
 git checkout -b branch_name
+
+
 
 **Move between branches**
 
 git checkout master
 
+
+
 **Delete a branch**
 
 git branch -d branch_name
+
+
 
 **Forced erasing**
 git branch -D branch_name
 
 *This command is used normally when the branch has commits inside her*
 
+
+
 **See branches**
 
 git branch -l
 
+
+
 **Rename branch**
 
 git branch -m branch_name new_name_branch
+
+
